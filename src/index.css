@@ -14,3 +14,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.font-creepster {
+  font-family: 'Creepster', cursive;
+}
+
+.font-normal-text {
+  font-family: 'agency-fb-bold', sans-serif;
+}
+
+@font-face {
+  font-family: "BisonBold";
+  src: local("BisonBold"), url(./Assets/Fonts/Bison-Bold.ttf) format('truetype');
+}
+
+.font-face-bison-bold {
+  font-family: "BisonBold";
+}
+
+@font-face {
+  font-family: "bison-regular";
+  src: local("bison-regular"), url(./Assets/Fonts/bison-regular.ttf) format('truetype');
+}
+
+.font-face-bison-regular {
+  font-family: "bison-regular";
+}
+
+@font-face {
+  font-family: "AgencyFB";
+  src: local("AgencyFB"), url(./Assets/Fonts/agencb.ttf) format("truetype");
+}
+
+.font-face-agency {
+  font-family: "AgencyFB";
+}

@@ -16,6 +16,7 @@ const Dashboard = () => {
       <div className="absolute w-full h-full">
         <img className="w-full h-full" src={bg} alt="" />
       </div> */}
+
       <div className="template">
         <div className="flex justify-center">
           <div className="mt-[42px] flex justify-center">
@@ -24,25 +25,33 @@ const Dashboard = () => {
         </div>
         <div className="flex justify-center">
           <div
-            className="mt-[19px] pt-[18px] flex justify-center w-[493px] h-[86px] items-start"
+            className="mt-[19px] pt-[3px] flex justify-center w-[493px] h-[86px] items-start"
             style={{ backgroundImage: `url(${layer})` }}
           >
-            <img className="" src={staking} alt="" />
+            <div className="font-face-bison-bold text-[40px] text-black tracking-[2px]">
+              MULTI-TIER NFT STAKING
+            </div>
           </div>
         </div>
         <div className="flex justify-center cursor-pointer">
           <div className="mt-[11px] w-[194px] h-[48px] rounded-[5px] bg-[#201b1b] flex justify-center items-center">
-            <img src={connectwallet} alt="" />
+            <div className="font-face-agency text-[30px] text-[#e5e418]">
+              Connect Wallet
+            </div>
           </div>
         </div>
         <div className="flex justify-center ">
           <div className="mt-[14px] w-[383px] h-[48px]  bg-black flex  items-center px-[15px]">
-            <img src={unclaimedrewards} alt="" />
+            <div className="font-face-agency text-[30px] text-white">
+              UnClaimed Rewards:
+            </div>
           </div>
         </div>
         <div className="flex justify-center cursor-pointer">
           <div className="mt-[21px] w-[194px] h-[48px] rounded-[5px] bg-black flex justify-center items-center">
-            <img src={claimrewards} alt="" />
+            <div className="font-face-agency text-[30px] text-[#00a652]">
+              Claimed Rewards
+            </div>
           </div>
         </div>
         <div className="flex justify-center mb-[45px]">
